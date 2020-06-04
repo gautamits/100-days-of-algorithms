@@ -1,3 +1,4 @@
+```
 procedure karatsuba(num1, num2)
   if (num1 < 10) or (num2 < 10)
     return num1*num2
@@ -12,3 +13,5 @@ procedure karatsuba(num1, num2)
   z1 = karatsuba((low1+high1),(low2+high2))
   z2 = karatsuba(high1,high2)
   return (z2*10^(2*m2))+((z1-z2-z0)*10^(m2))+(z0)
+
+```
